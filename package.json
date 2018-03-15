@@ -1,0 +1,41 @@
+{
+  "name": "network-address-cli",
+  "version": "1.0.0",
+  "description": "cli tool for getting your machine's network address",
+  "main": "./index.js",
+  "bin": {
+    "network-address": "./index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "network-address": "^1.1.2",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronianski/network-address-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "network",
+    "address",
+    "ip",
+    "ipv4",
+    "ipv6",
+    "local"
+  ],
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voronianski/network-address-cli/issues"
+  },
+  "homepage": "https://github.com/voronianski/network-address-cli#readme"
+}
